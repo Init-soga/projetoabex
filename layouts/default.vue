@@ -7,17 +7,29 @@
       <v-btn text>Como comprar</v-btn>
     </v-app-bar>
     <Nuxt />
+    <div class="footer">
+    <FooterComponent />
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import FooterComponent from "../components/footer.vue"
+export default {
+  data(){
+    return{}
+  },
+  components: {
+    FooterComponent
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 .mainLayout{
   background-color: #EBD8C3;
   min-height: 100vh;
-  height: 100vh + 5vh;
+  height: 100%;
 }
+
 </style>
