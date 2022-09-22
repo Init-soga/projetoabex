@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="container">
+    <v-container class="container" app>
       <v-row no-gutters>
         <v-col v-for="n in 3" :key="n">
           <v-card class="cardProduto">{{n}}</v-card>
@@ -28,5 +28,6 @@ export default {
 .cardProduto{
   margin: 2%;
   height: 20vh;
+  
 }
 </style>

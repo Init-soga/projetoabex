@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-footer padless fixed >
+    <v-footer padless fixed>
       <v-col cols="12">
         <div class="footerComponent"> 
         {{new Date().getFullYear()}} - <b>Kame-Kunhru</b>
@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 * {
-    background-color: #FFF6EA;
+    background-color: #472D2D;
 }
 
 .footerComponent{

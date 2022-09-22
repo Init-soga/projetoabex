@@ -1,78 +1,37 @@
 <template>
   <div>
-    <div class="cardContainer">
+    <div class="containerCard">
       <v-card height="auto" width="85vw">
         <div class="tituloCard">
-        <v-card-title>Sobre nós</v-card-title>
+        <v-card-title>Como comprar</v-card-title>
         </div>
-        <div class="textCard">
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        <v-card-text
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          fugiat corrupti perspiciatis repellat necessitatibus veritatis tempore
-          dolor quidem tenetur! Quibusdam cupiditate natus voluptas placeat
-          corporis nobis quis provident? Corporis, exercitationem!</v-card-text
-        >
-        </div>
+        <v-card-text>
+
+        </v-card-text>
       </v-card>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+        variavel: false,
+    }
+  },
+}
 </script>
 
-<style lang="scss" scoped>
-.cardContainer {
-  display: flex;
-  justify-content: center;
-  margin: 2%;
-  height: auto;
-}
-
-.textCard{
-    padding: 2%;
+<style scoped>
+.containerCard{
+    display: flex;
+    justify-content: center;
+    margin: 2%; 
 }
 
 .tituloCard{
     display: flex;
     justify-content: center;
-    padding-top: 2%;
 }
 </style>
