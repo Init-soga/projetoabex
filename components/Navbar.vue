@@ -8,9 +8,9 @@
         </v-list-item>
         <v-divider></v-divider>
         <v-tabs vertical>
-          <v-tab><v-icon></v-icon><b>A ALDEIA</b></v-tab>
-          <v-tab><v-icon></v-icon><b>PRODUTOS</b></v-tab>
-          <v-tab><v-icon></v-icon><b>COMO ADQUIRIR</b></v-tab>
+          <v-tab><v-icon class="icon-tab">mdi-account-group</v-icon><b>A ALDEIA</b></v-tab>
+          <v-tab><v-icon class="icon-tab">mdi-shopping</v-icon><b>PRODUTOS</b></v-tab>
+          <v-tab><v-icon class="icon-tab">mdi-head-question</v-icon><b>COMO ADQUIRIR</b></v-tab>
         </v-tabs>
       </v-list>
     </v-navigation-drawer>
@@ -30,5 +30,9 @@ export default {
 <style lang="scss" scoped>
 #logo {
   padding: 8% 5%;
+}
+
+.icon-tab{
+    padding-right: 5%;
 }
 </style>
