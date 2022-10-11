@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <v-footer>
+        
+    </v-footer>
+  </div>
 </template>
 
 <script>
@@ -10,4 +14,4 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
