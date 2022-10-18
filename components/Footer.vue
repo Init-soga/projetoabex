@@ -1,13 +1,5 @@
 <template>
-  <div>
-    <v-footer fixed inset>
-        <v-card flat tile>
-            <v-card-text>
-                <v-btn fab></v-btn>
-            </v-card-text>
-        </v-card>
-    </v-footer>
-  </div>
+  
 </template>
 
 <script>
@@ -18,4 +10,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.fab-btn{
+  display: flex;
+  justify-content: center;
+}
+</style>
