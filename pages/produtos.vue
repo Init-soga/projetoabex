@@ -1,19 +1,15 @@
 <template>
   <div>
-    <Navbar />
+    pŕodutos
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    
-
     return {}
   },
 }
 </script>
 
-<style scoped>
-
-</style>
+<style lang="scss" scoped></style>
