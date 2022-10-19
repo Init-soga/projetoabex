@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-footer">
     <v-footer fixed inset app>
         <v-row>
           <v-col cols="12" class="fab-btn">
@@ -24,5 +24,9 @@ export default {
 .fab-btn{
   display: flex;
   justify-content: center;
+}
+
+.main-footer{
+  margin-top: 2%;
 }
 </style>
