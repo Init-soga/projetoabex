@@ -7,7 +7,7 @@
             <v-row>
               <v-col cols="12" class="container-produto">
                 <div class="imagem-produto">
-                  <v-img :src="arrayProdutos[imagemEscolhida]">
+                  <v-img :src="require('~/assets/compras/produto1.svg')">
                   </v-img>
                 </div>
               </v-col>
