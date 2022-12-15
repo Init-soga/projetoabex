@@ -20,7 +20,7 @@
                 <p>R$ XX,XX</p>
               </v-row>
               <v-row class="titulo-produto">
-                <v-btn style="margin: 5%" text>Ver mais!</v-btn>
+                <v-btn style="margin: 5%" text to="/detalhes">Ver mais!</v-btn>
               </v-row>
             </v-card>
           </v-col>
@@ -42,7 +42,7 @@
                 <p>R$ XX,XX</p>
               </v-row>
               <v-row class="titulo-produto">
-                <v-btn style="margin: 5%" text>Ver mais!</v-btn>
+                <v-btn style="margin: 5%" text to="/detalhes">Ver mais!</v-btn>
               </v-row>
             </v-card>
           </v-col>
@@ -64,7 +64,7 @@
                 <p>R$ XX,XX</p>
               </v-row>
               <v-row class="titulo-produto">
-                <v-btn style="margin: 5%" text>Ver mais!</v-btn>
+                <v-btn style="margin: 5%" text to="/detalhes">Ver mais!</v-btn>
               </v-row>
             </v-card>
           </v-col>
