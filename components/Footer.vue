@@ -1,6 +1,6 @@
 <template>
   <div class="main-footer">
-    <v-footer fixed inset app>
+    <v-footer>
         <v-row>
           <v-col cols="12" class="fab-btn">
             <v-btn text fab><v-icon>mdi-facebook</v-icon></v-btn>
